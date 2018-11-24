@@ -19,6 +19,6 @@ def list_albums():
     for a in albums:
         print("* {} - {} tracks".format(a.name, len(a.tracks)))
 
-
+# Testing git push
 if __name__ == '__main__':
     main()
